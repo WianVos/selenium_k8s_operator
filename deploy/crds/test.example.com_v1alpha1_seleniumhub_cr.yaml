@@ -1,0 +1,9 @@
+apiVersion: test.example.com/v1alpha1
+kind: SeleniumHub
+metadata:
+  name: example2-seleniumhub
+spec:
+  # Add fields here
+  size: 2
+  cpu: "200m"
+  memory: "4G"
